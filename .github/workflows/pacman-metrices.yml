@@ -1,23 +1,30 @@
-name: Generate Pacman Game
+name: Generate Space Pacman
 
 on:
   schedule:
     - cron: "0 0 * * *" # Runs every night
-  workflow_dispatch: # Allows you to start it manually
+  workflow_dispatch: # Allows manual trigger
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
+    env:
+      ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
     steps:
-      - uses: actions/checkout@v3
-      
-      # This is the specialized Pacman engine
-      - uses: lowlighter/metrics@latest
+      - name: generate space-pacman.svg
+        uses: Platane/snk/svg-only@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          user: shivamtiwari01016
-          template: classic
-          base: "" 
-          # This specific plugin creates the Pac-Man effect
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
+          github_user_name: shivamtiwari01016
+          # The color_snake is the "Smiley", color_dots are the pellets
+          outputs: |
+            dist/space-pacman.svg?color_snake=yellow&color_dots=#161b22,#00441b,#006d2c,#26a641,#39d353&palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: push-to-output-branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
