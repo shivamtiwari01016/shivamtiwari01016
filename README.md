@@ -67,11 +67,12 @@
 ---
 
 <div align="center">
-  <h3>👾 Space Pac-Man: Commit Devourer</h3>
+  <h3>👾 Space Devourer: Commit Devourer (Pac-Man Style)</h3>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shivamtiwari01016/shivamtiwari01016/output/space-pacman.svg">
-    <img alt="Space Pacman Game" src="https://raw.githubusercontent.com/shivamtiwari01016/shivamtiwari01016/output/space-pacman.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shivamtiwari01016/shivamtiwari01016/main/github-metrics.svg">
+    <img alt="Space Devourer Game" src="https://raw.githubusercontent.com/shivamtiwari01016/shivamtiwari01016/main/github-metrics.svg">
   </picture>
+  <p><i>Your actual contribution grid is the map. Pac-Man hunts only the commits! (Image 9.png concept)</i></p>
 </div>
 
 ---
