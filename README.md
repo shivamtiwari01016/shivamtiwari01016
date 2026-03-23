@@ -68,7 +68,7 @@
 
 ### 🕹️ Pac-Man Contribution Maze
 <div align="center">
-  <img src="./github-contribution-grid-pacman.svg" alt="Pacman Maze" />
+  <img src="https://github.com/shivamtiwari01016/shivamtiwari01016/blob/main/github-metrics.svg" alt="Pacman Maze" />
 </div>
 
 ---
