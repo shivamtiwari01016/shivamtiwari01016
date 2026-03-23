@@ -25,4 +25,5 @@ jobs:
           git config user.email github-actions@github.com
           git add github-trophies.svg
           git commit -m "Generated new trophies" || echo "No changes to commit"
-          git push
+          git push https://${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git HEAD:main
+ 
