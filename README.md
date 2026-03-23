@@ -66,6 +66,17 @@
 
 ---
 
+### 🎮 Contribution Battlefield (City Strike)
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shivamtiwari01016/shivamtiwari01016/output/github-contribution-grid-strike-dark.svg">
+    <img alt="GitHub Contribution Battlefield" src="https://raw.githubusercontent.com/shivamtiwari01016/shivamtiwari01016/output/github-contribution-grid-strike-dark.svg">
+  </picture>
+  <p><i>Rockets are fired based on my daily commit activity!</i></p>
+</div>
+
+---
+
 ### 📫 Let's Connect
 <div align="center">
   <a href="mailto:shivamtiwari01016@gmail.com">
