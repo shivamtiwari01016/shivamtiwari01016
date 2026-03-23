@@ -66,9 +66,12 @@
 
 ---
 
-### 🕹️ Pac-Man: Commit Devourer
 <div align="center">
-  <img src="https://github.com/shivamtiwari01016/shivamtiwari01016/blob/main/github-metrics.svg" alt="Pacman Game" />
+  <h3>👾 Space Pac-Man: Commit Devourer</h3>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shivamtiwari01016/shivamtiwari01016/output/space-pacman.svg">
+    <img alt="Space Pacman Game" src="https://raw.githubusercontent.com/shivamtiwari01016/shivamtiwari01016/output/space-pacman.svg">
+  </picture>
 </div>
 
 ---
