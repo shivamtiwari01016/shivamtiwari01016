@@ -1,0 +1,28 @@
+name: Generate GitHub Trophies
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs automatically every night at midnight UTC
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Generate Trophies
+        uses: ryo-ma/github-profile-trophy@master
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          column: 3
+          theme: dracula # Dark theme to match the profile
+          output: github-trophies.svg # Must match the file name in the README
+
+      - name: Commit & Push Trophies
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add github-trophies.svg
+          git commit -m "Generated new trophies" || echo "No changes to commit"
+          git push
