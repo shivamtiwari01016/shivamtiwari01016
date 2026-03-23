@@ -15,20 +15,20 @@ jobs:
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: shivamtiwari01016
-          outputs: |
-            # 1. PAC-MAN Style
-            dist/pacman.svg?palette=github-dark&color_snake=yellow&color_dots=#bfd6f6
+         outputs: |
+            # 1. PAC-MAN (Yellow snake + Blue maze dots)
+            dist/pacman.svg?color_snake=yellow&color_dots=#0000FF&palette=github-dark
             
-            # 2. TETRIS Style
-            dist/tetris.svg?palette=github-light&color_snake=orange
+            # 2. TETRIS (Orange blocks)
+            dist/tetris.svg?color_snake=orange&palette=github-light
             
-            # 3. CHARACTER WALKING (RPG Style)
-            dist/rpg-walk.svg?palette=github-dark&color_snake=#3c7dd9
+            # 3. CHARACTER WALKING (Blue Knight style)
+            dist/rpg-walk.svg?color_snake=#3c7dd9&color_dots=#bfd6f6&palette=github-dark
             
-            # 4. MATRIX Style
-            dist/matrix.svg?palette=github-dark&color_snake=#00FF00&color_dots=#003300
+            # 4. MATRIX (Green neon rain)
+            dist/matrix.svg?color_snake=#00FF00&color_dots=#003300&palette=github-dark
             
-            # 5. BATTLEFIELD (City Strike)
+            # 5. BATTLEFIELD (The 3D City Strike - uses a different filename)
             dist/battlefield-strike.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
