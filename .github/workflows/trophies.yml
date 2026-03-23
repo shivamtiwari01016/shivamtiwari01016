@@ -2,22 +2,24 @@ name: Generate GitHub Trophies
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs automatically every night at midnight UTC
-  workflow_dispatch: # Allows manual trigger
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      
+      # FIX 1: Upgrade from @v3 to @v4 to fix the Node.js deprecation warning
+      - uses: actions/checkout@v4
+
       - name: Generate Trophies
         uses: ryo-ma/github-profile-trophy@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          column: 3
-          theme: dracula # Dark theme to match the profile
-          output: github-trophies.svg # Must match the file name in the README
+          # FIX 2: 'column' is removed, it otomatis calculates now.
+          theme: dracula
+          # FIX 3: Renamed from 'output' to 'output_path' to match valid inputs
+          output_path: github-trophies.svg
 
       - name: Commit & Push Trophies
         run: |
@@ -25,5 +27,5 @@ jobs:
           git config user.email github-actions@github.com
           git add github-trophies.svg
           git commit -m "Generated new trophies" || echo "No changes to commit"
+          # This push line is correct and should not be changed
           git push https://${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git HEAD:main
- 
