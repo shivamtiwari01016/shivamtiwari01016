@@ -1,8 +1,10 @@
+---
+
 <div align="center">
   
   # Hi there, I'm Shivam Tiwari 👋
   
-  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Backend+Java+Developer;Spring+Boot+Expertise;Computer+Engineering+Student)](https://git.io/typing-svg)
+  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Backend+Java+Developer;Spring+Boot+Developer;Computer+Engineering+Student)](https://git.io/typing-svg)
 
   *I am a 3rd-year Computer Engineering student specializing in robust backend development and database architecture. I focus on building scalable RESTful APIs and recently built a full-stack AI-powered email drafting system using the Spring ecosystem and Google Gemini.*
 
@@ -73,3 +75,5 @@
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
 </div>
+
+---
