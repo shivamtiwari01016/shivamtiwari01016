@@ -66,21 +66,9 @@
 
 ---
 
+### 🕹️ Pac-Man Contribution Maze
 <div align="center">
-  <h3>🥇 Option 1: Pac-Man (Best Balance)</h3>
-  <img src="https://raw.githubusercontent.com/shivamtiwari01016/shivamtiwari01016/output/pacman.svg" alt="Pacman" />
-
-  <h3>🥈 Option 2: Tetris (Most Creative)</h3>
-  <img src="https://raw.githubusercontent.com/shivamtiwari01016/shivamtiwari01016/output/tetris.svg" alt="Tetris" />
-
-  <h3>🥉 Option 3: Character Walking (Unique)</h3>
-  <img src="https://raw.githubusercontent.com/shivamtiwari01016/shivamtiwari01016/output/rpg-walk.svg" alt="RPG Walk" />
-
-  <h3>⚡ Option 4: Matrix (Aesthetic)</h3>
-  <img src="https://raw.githubusercontent.com/shivamtiwari01016/shivamtiwari01016/output/matrix.svg" alt="Matrix" />
-
-  <h3>🔫 Option 5: Battlefield (Coolest)</h3>
-  <img src="https://raw.githubusercontent.com/shivamtiwari01016/shivamtiwari01016/output/battlefield-strike.svg" alt="Battlefield" />
+  <img src="./github-contribution-grid-pacman.svg" alt="Pacman Maze" />
 </div>
 
 ---
