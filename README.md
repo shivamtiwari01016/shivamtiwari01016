@@ -66,13 +66,12 @@
 
 ---
 
-### 🕹️ Pac-Man Contribution Maze
+### 🕹️ Pac-Man: Commit Devourer
 <div align="center">
-  <img src="https://github.com/shivamtiwari01016/shivamtiwari01016/blob/main/github-metrics.svg" alt="Pacman Maze" />
+  <img src="https://github.com/shivamtiwari01016/shivamtiwari01016/blob/main/github-metrics.svg" alt="Pacman Game" />
 </div>
 
 ---
-
 ### 📫 Let's Connect
 <div align="center">
   <a href="mailto:shivamtiwari01016@gmail.com">
