@@ -12,9 +12,16 @@
 
 ---
 
+### 🛡️ Coding Class: Java Architect
+<div align="center">
+  <img src="https://github-profile-rpg.vercel.app/api?username=shivamtiwari01016&theme=dark" alt="Coding Class Card" />
+</div>
+
+---
+
 ### 📄 My Resume
 <div align="center">
-  <a href="./Shivam_Tiwari_Resume.pdf" target="_blank">
+  <a href="https://raw.githubusercontent.com/shivamtiwari01016/shivamtiwari01016/main/Shivam_Tiwari_Resume.pdf" target="_blank">
     <img src="https://img.shields.io/badge/View_My_Resume-005571?style=for-the-badge&logo=minutemailer&logoColor=white&scale=1.2" alt="Resume Badge"/>
   </a>
 </div>
@@ -59,9 +66,24 @@
 
 ---
 
+### 🎮 Play Tic-Tac-Toe Against My Backend
+<div align="center">
+  <img src="https://tic-tac-toe-readme.vercel.app/api?username=shivamtiwari01016&theme=dark" alt="Tic-Tac-Toe Game" />
+  <p><i>Click an empty square on the board above to make your move!</i></p>
+</div>
+
+---
+
 ### 🔥 GitHub Streak
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=shivamtiwari01016&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</div>
+
+---
+
+### 🏆 Achievement Trophies
+<div align="center">
+  <img src="./github-trophies.svg" alt="Trophy List" />
 </div>
 
 ---
