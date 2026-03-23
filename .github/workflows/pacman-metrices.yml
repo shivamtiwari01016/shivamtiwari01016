@@ -1,18 +1,23 @@
-name: Generate Pacman Metrics
+name: Generate Pacman Game
+
 on:
-  schedule: [{cron: "0 0 * * *"}] # Runs every night
-  workflow_dispatch: # Allows manual trigger
+  schedule:
+    - cron: "0 0 * * *" # Runs every night
+  workflow_dispatch: # Allows you to start it manually
+
 jobs:
-  github-metrics:
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
+      - uses: actions/checkout@v3
+      
+      # This is the specialized Pacman engine
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           user: shivamtiwari01016
           template: classic
-          base: "" # This hides the default stats so we only get the game
+          base: "" 
+          # This specific plugin creates the Pac-Man effect
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year # Shows 6 months of maze
+          plugin_isocalendar_duration: half-year
