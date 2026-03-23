@@ -1,0 +1,32 @@
+name: Generate GitHub Battlefield
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs every night
+  workflow_dispatch: # Allows you to click 'Run' manually
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    env:
+      # This is the secret sauce to fix the Node.js errors you saw earlier
+      ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
+    steps:
+      - name: generate battlefield-strike.svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: shivamtiwari01016
+          # The filename ending in '-strike' tells the system to use the Battlefield UI
+          outputs: |
+            dist/github-contribution-grid-snake.svg?palette=github-dark&color_snake=red
+            dist/github-contribution-grid-strike-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: push results to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
