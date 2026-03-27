@@ -1,5 +1,3 @@
----
-
 <div align="center">
   
  # Hi there, I'm Shivam Tiwari 👋
@@ -7,7 +5,9 @@
   [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Backend+Java+Developer;Spring+Boot+Developer;Computer+Engineering+Student)](https://git.io/typing-svg)
 
   *I am a 3rd-year Computer Engineering student specializing in robust backend development and database architecture. I focus on building scalable RESTful APIs and recently built a full-stack AI-powered email drafting system using the Spring ecosystem and Google Gemini.*
-
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=shivamtiwari01016&label=Profile%20Views&color=blueviolet&style=for-the-badge" alt="Visitor counter"/>
+</p>
 </div>
 
 ---
@@ -80,9 +80,8 @@
   <a href="mailto:shivamtiwari01016@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN_URL_HERE">
+  <a href="https://www.linkedin.com/in/shivam-tiwari-040b47291">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
 </div>
 
----
