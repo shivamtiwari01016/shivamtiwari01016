@@ -62,7 +62,7 @@
 
 ### 🔥 GitHub Streak
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shivamtiwari01016&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+ <img src="https://github-readme-streak-stats.herokuapp.com/?user=shivamtiwari01016&theme=tokyonight&hide_border=true&v=1" alt="GitHub Streak" />
 </div>
 
 ---
@@ -82,7 +82,7 @@
   <a href="mailto:shivamtiwari01016@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN_URL_HERE">
+  <a href="https://linkedin.com/in/shivam-tiwari-dev01"/>
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
 </div>
