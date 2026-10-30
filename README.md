@@ -8,7 +8,7 @@
 
 <p>
   Final-year Computer Engineering student passionate about backend development,
-  database design, and building scalable RESTful APIs using Java and Spring Boot.
+  database design, and building scalable RESTful APIs using Java and Spring Boot..
   I enjoy solving problems and developing practical software solutions.
 </p>
 
